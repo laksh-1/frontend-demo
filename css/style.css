@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+    background-image: url(img/bg2.png);
+    background-size: contain;
+    background-repeat: repeat-x; 
+}
+
+/* NAV-BAR */
+
+#nav-bar
+{
+    /* position: sticky; */
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+    /* background-image: linear-gradient(to bottom right, rgb(221, 221, 221), rgb(255, 255, 255)); */
+    padding: 0 !important;
+}
+
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 10px;
+}
+
+#org-name
+{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(30, 30, 128);
+}
+
+.navbar-nav li
+{
+    padding: 0 20px;
+}
+
+.navbar-nav li a
+{
+    color: rgb(73, 70, 70) !important;
+    font-weight: 700;
+}
+
+.navbar-nav li a:hover
+{
+    color: rgb(34, 34, 34) !important;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+    margin: 0.5rem;
+}
+
+/* BANNER-SECTION */
+
+#banner
+{
+    /* background-image: url(img/bg2.png); */
+    color: rgb(73, 70, 70);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.promo-title
+{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.promo-detail
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.promo-info
+{
+    color: rgb(114, 100, 100);
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.icon-download
+{
+    background-image: url(img/down-arrow.png);
+    background-size: cover;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+
+/* WORKING - SECTION */
+
+#working
+{
+    background-image: url(img/bg0.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-row
+{
+    margin: 10px;
+    padding: 10px 40px;
+}
